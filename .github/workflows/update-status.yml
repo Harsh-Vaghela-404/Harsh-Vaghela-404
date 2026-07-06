@@ -1,0 +1,65 @@
+name: Update current-status from private tracker
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # daily, 03:00 UTC
+  workflow_dispatch: {} # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch status line from private repo
+        env:
+          TOKEN: ${{ secrets.SDE_PREP_TOKEN }}
+        run: |
+          set -e
+          STATUS=$(curl -sf \
+            -H "Authorization: token $TOKEN" \
+            -H "Accept: application/vnd.github.raw" \
+            "https://api.github.com/repos/Harsh-Vaghela-404/sde-prep/contents/progress/public-status.md")
+          if [ -z "$STATUS" ]; then
+            echo "Empty status fetched — leaving README untouched." >&2
+            exit 1
+          fi
+          {
+            echo "STATUS<<STATUS_EOF"
+            echo "$STATUS"
+            echo "STATUS_EOF"
+          } >> "$GITHUB_ENV"
+
+      - name: Update README between markers
+        run: |
+          python3 - <<'PYEOF'
+          import os, re
+
+          status = os.environ["STATUS"].strip()
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          pattern = re.compile(
+              r"(<!--CURRENT-START-->\n).*?(\n<!--CURRENT-END-->)",
+              re.DOTALL,
+          )
+          new_line = f"- {status}" if not status.startswith("-") else status
+          new_content, count = pattern.subn(rf"\1{new_line}\2", content)
+
+          if count == 0:
+              raise SystemExit("CURRENT-START/END markers not found in README.md")
+
+          with open("README.md", "w") as f:
+              f.write(new_content)
+          PYEOF
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet && echo "No change." || git commit -m "chore: sync current-status from sde-prep"
+          git push
