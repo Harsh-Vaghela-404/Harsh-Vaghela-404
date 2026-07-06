@@ -10,6 +10,13 @@ contact  | harsh.vaghela.work@gmail.com
 Time: 0.042 ms
 ```
 
+<p>
+  <a href="https://www.linkedin.com/in/harsh-vaghela-169059201/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://medium.com/@harsh.vaghela.work"><img src="https://img.shields.io/badge/Medium-000000?style=flat-square&logo=medium&logoColor=white" alt="Medium"></a>
+  <a href="https://leetcode.com/u/AQzhJVqwaF/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode"></a>
+  <a href="https://www.hackerrank.com/profile/harsh_vaghela_w1"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=flat-square&logo=hackerrank&logoColor=black" alt="HackerRank"></a>
+</p>
+
 **Now:** <!--CURRENT-START-->PostgreSQL indexing internals: composite index column order (the ESR rule) and partial indexes<!--CURRENT-END-->
 
 #### Duraflow
@@ -20,6 +27,13 @@ dead-letter queue for failed compensations.
 
 [Code](https://github.com/Harsh-Vaghela-404/duraflow) · [Docs](https://duraflow-docs.vercel.app)
 
+#### Writing
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+More on [Medium](https://medium.com/@harsh.vaghela.work).
+
 #### Stack
 
 |  |  |
@@ -28,6 +42,14 @@ dead-letter queue for failed compensations.
 | **Data** | ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) |
 | **Infra** | ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Nginx](https://img.shields.io/badge/-Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
 
+#### Stats
+
 <p align="center">
   <img src="./github-metrics.svg" alt="GitHub metrics">
+</p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/AQzhJVqwaF?theme=dark&ext=heatmap">
+    <img src="https://leetcard.jacoblin.cool/AQzhJVqwaF?ext=heatmap" alt="LeetCode stats">
+  </picture>
 </p>

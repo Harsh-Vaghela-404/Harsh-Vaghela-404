@@ -1,0 +1,19 @@
+name: latest blog posts
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # daily, offset from status-sync (3:00) and metrics (3:30)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://medium.com/feed/@harsh.vaghela.work"
+          max_post_count: 4
+          commit_message: "chore: update latest blog posts"
