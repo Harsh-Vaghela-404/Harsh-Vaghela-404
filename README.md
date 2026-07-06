@@ -33,7 +33,7 @@ dead-letter queue for failed compensations.
 - [Queue Depth Lies. Watch Event Loop Lag Instead.](https://levelup.gitconnected.com/queue-depth-lies-watch-event-loop-lag-instead-d340835b45c9?source=rss-aad24d9e7285------2)
 - [How I Built a Custom IPC Protocol Inside Node.js Worker Threads](https://levelup.gitconnected.com/how-i-built-a-custom-ipc-protocol-inside-node-js-worker-threads-4db648f21ee8?source=rss-aad24d9e7285------2)
 - [Postgres is the only Queue you need &lpar;until 50k jobs/sec&rpar;](https://medium.com/@harsh.vaghela.work/postgres-is-the-only-queue-you-need-until-50k-jobs-sec-5931611b551c?source=rss-aad24d9e7285------2)
-- [✨ CI/CD with GitHub Actions — Part 3: Security, Observability &amp; Production-Grade Pipeline Patterns](https://medium.com/@harsh.vaghela.work/ci-cd-with-github-actions-part-3-security-observability-production-grade-pipeline-patterns-c89db981d2ad?source=rss-aad24d9e7285------2)
+- [✨ CI/CD with GitHub Actions - Part 3: Security, Observability &amp; Production-Grade Pipeline Patterns](https://medium.com/@harsh.vaghela.work/ci-cd-with-github-actions-part-3-security-observability-production-grade-pipeline-patterns-c89db981d2ad?source=rss-aad24d9e7285------2)
 <!-- BLOG-POST-LIST:END -->
 
 More on [Medium](https://medium.com/@harsh.vaghela.work).
