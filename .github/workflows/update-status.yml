@@ -43,11 +43,10 @@ jobs:
               content = f.read()
 
           pattern = re.compile(
-              r"(<!--CURRENT-START-->\n).*?(\n<!--CURRENT-END-->)",
+              r"(<!--CURRENT-START-->).*?(<!--CURRENT-END-->)",
               re.DOTALL,
           )
-          new_line = f"- {status}" if not status.startswith("-") else status
-          new_content, count = pattern.subn(rf"\1{new_line}\2", content)
+          new_content, count = pattern.subn(rf"\1{status}\2", content)
 
           if count == 0:
               raise SystemExit("CURRENT-START/END markers not found in README.md")
