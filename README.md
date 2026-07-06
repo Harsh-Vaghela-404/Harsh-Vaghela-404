@@ -1,9 +1,9 @@
 ### Harsh Vaghela
 
-Backend dev — Node.js, TypeScript, PostgreSQL.
+Backend dev - Node.js, TypeScript, PostgreSQL.
 
 - Building [Duraflow](https://github.com/Harsh-Vaghela-404/duraflow) - workflow orchestration, saga rollback + dead letter queue
-- <!--CURRENT-START-->Currently deep in PostgreSQL indexing — composite indexes (ESR rule) + partial indexes<!--CURRENT-END-->
+- <!--CURRENT-START-->Currently deep in PostgreSQL indexing - composite indexes (ESR rule) + partial indexes<!--CURRENT-END-->
 - Also poking at system design
 
 📫 harsh.vaghela.work@gmail.com
