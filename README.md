@@ -13,7 +13,7 @@ Time: 0.042 ms
 <p>
   <a href="https://www.linkedin.com/in/harsh-vaghela-169059201/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://medium.com/@harsh.vaghela.work"><img src="https://img.shields.io/badge/Medium-000000?style=flat-square&logo=medium&logoColor=white" alt="Medium"></a>
-  <a href="https://leetcode.com/u/AQzhJVqwaF/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode"></a>
+  <a href="https://leetcode.com/u/harshVaghela01/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode"></a>
   <a href="https://www.hackerrank.com/profile/harsh_vaghela_w1"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=flat-square&logo=hackerrank&logoColor=black" alt="HackerRank"></a>
 </p>
 
@@ -49,7 +49,7 @@ More on [Medium](https://medium.com/@harsh.vaghela.work).
 </p>
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/AQzhJVqwaF?theme=dark&ext=heatmap">
-    <img src="https://leetcard.jacoblin.cool/AQzhJVqwaF?ext=heatmap" alt="LeetCode stats">
+    <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/harshVaghela01?theme=dark&ext=heatmap">
+    <img src="https://leetcard.jacoblin.cool/harshVaghela01?ext=heatmap" alt="LeetCode stats">
   </picture>
 </p>
