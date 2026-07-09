@@ -17,7 +17,7 @@ Time: 0.042 ms
   <a href="https://www.hackerrank.com/profile/harsh_vaghela_w1"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=flat-square&logo=hackerrank&logoColor=black" alt="HackerRank"></a>
 </p>
 
-**Now:** <!--CURRENT-START-->PostgreSQL covering indexes: INCLUDE, index-only scans, the visibility map, and why Heap Fetches climb until VACUUM runs<!--CURRENT-END-->
+**Now:** <!--CURRENT-START-->PostgreSQL index types beyond B-tree: GIN posting lists, GiST bounding boxes, BRIN block ranges, and diagnosing why the planner skips an index<!--CURRENT-END-->
 
 #### Duraflow
 
