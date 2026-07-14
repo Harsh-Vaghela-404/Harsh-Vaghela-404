@@ -17,7 +17,7 @@ Time: 0.042 ms
   <a href="https://www.hackerrank.com/profile/harsh_vaghela_w1"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=flat-square&logo=hackerrank&logoColor=black" alt="HackerRank"></a>
 </p>
 
-**Now:** <!--CURRENT-START-->PostgreSQL deadlocks and the write-ahead log: wait-for graph cycle detection, and why WAL has to hit disk before the data page it describes, for crash recovery and commit durability<!--CURRENT-END-->
+**Now:** <!--CURRENT-START-->postgres query plans: buffer namespaces (shared, local, temp), the loops multiplier, and subtracting child node time to find which node is actually the bottleneck when several look slow<!--CURRENT-END-->
 
 #### Duraflow
 
