@@ -17,7 +17,7 @@ Time: 0.042 ms
   <a href="https://www.hackerrank.com/profile/harsh_vaghela_w1"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=flat-square&logo=hackerrank&logoColor=black" alt="HackerRank"></a>
 </p>
 
-**Now:** <!--CURRENT-START-->postgres query plans: buffer namespaces (shared, local, temp), the loops multiplier, and subtracting child node time to find which node is actually the bottleneck when several look slow<!--CURRENT-END-->
+**Now:** <!--CURRENT-START-->postgres table partitioning: range vs list vs hash, and how partition pruning lets the planner throw out whole partitions before it even runs its normal cost math<!--CURRENT-END-->
 
 #### Duraflow
 
