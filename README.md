@@ -17,7 +17,7 @@ Time: 0.042 ms
   <a href="https://www.hackerrank.com/profile/harsh_vaghela_w1"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=flat-square&logo=hackerrank&logoColor=black" alt="HackerRank"></a>
 </p>
 
-**Now:** <!--CURRENT-START-->postgres table partitioning: range vs list vs hash, and how partition pruning lets the planner throw out whole partitions before it even runs its normal cost math<!--CURRENT-END-->
+**Now:** <!--CURRENT-START-->postgres connection pooling: why a new connection forks a whole backend process, and how pgbouncer's transaction mode trades away prepared statements and session state for reuse<!--CURRENT-END-->
 
 #### Duraflow
 
