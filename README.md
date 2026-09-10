@@ -17,7 +17,7 @@ Time: 0.042 ms
   <a href="https://www.hackerrank.com/profile/harsh_vaghela_w1"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=flat-square&logo=hackerrank&logoColor=black" alt="HackerRank"></a>
 </p>
 
-**Now:** <!--CURRENT-START-->postgres advisory locks: app-level locking for things like distributed cron jobs, and how transaction-mode connection pooling can silently hand a session-scoped lock to the wrong client<!--CURRENT-END-->
+**Now:** <!--CURRENT-START-->postgres work_mem and sort spills: why a big sort or group by falls back from an in-memory quicksort to an external merge on disk, and how to catch it in EXPLAIN<!--CURRENT-END-->
 
 #### Duraflow
 
