@@ -17,7 +17,7 @@ Time: 0.042 ms
   <a href="https://www.hackerrank.com/profile/harsh_vaghela_w1"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=flat-square&logo=hackerrank&logoColor=black" alt="HackerRank"></a>
 </p>
 
-**Now:** <!--CURRENT-START-->postgres jsonb and full text search: indexing jsonb with GIN, why the @> operator needs a recheck against the row, and when to reach for elasticsearch instead of just postgres<!--CURRENT-END-->
+**Now:** <!--CURRENT-START-->postgres pg_stat_statements: using the calls column to catch N+1 query bugs that total_exec_time hides, and batching them into one IN(...) query instead of a query per loop iteration<!--CURRENT-END-->
 
 #### Duraflow
 
