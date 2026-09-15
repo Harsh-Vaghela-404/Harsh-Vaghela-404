@@ -17,7 +17,7 @@ Time: 0.042 ms
   <a href="https://www.hackerrank.com/profile/harsh_vaghela_w1"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=flat-square&logo=hackerrank&logoColor=black" alt="HackerRank"></a>
 </p>
 
-**Now:** <!--CURRENT-START-->postgres pg_stat_statements: using the calls column to catch N+1 query bugs that total_exec_time hides, and batching them into one IN(...) query instead of a query per loop iteration<!--CURRENT-END-->
+**Now:** <!--CURRENT-START-->postgres CTEs and window functions: recursive CTEs as an iterating working table, and why tied rows share the same running total under a window function's default RANGE frame<!--CURRENT-END-->
 
 #### Duraflow
 
