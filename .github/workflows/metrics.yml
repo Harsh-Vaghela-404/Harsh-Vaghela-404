@@ -5,6 +5,9 @@ on:
     - cron: '30 3 * * *' # daily, offset from the status-sync workflow
   workflow_dispatch: {}
 
+concurrency:
+  group: profile-readme
+
 jobs:
   metrics:
     runs-on: ubuntu-latest
